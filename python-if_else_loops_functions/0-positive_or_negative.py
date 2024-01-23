@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-
-def is_compare(number):
-    if (number > 0):
-        print(f"{number} is positive \n")
-    elif (number == 0):
-        print(f"{number} is zero \n")
-    else:
-        print(f"{number} is negative \n")
-
-is_compare(number)
+print(f"{number}", end = " ")
+if (number > 0):
+    print("is positive")
+elif (number == 0):
+    print("is zero")
+else:
+    print("is negative")
