@@ -8,4 +8,4 @@ if (last_digit > 5):
 elif (last_digit == 0):
     print(f"and is 0 {last_digit}")
 else:
-    print("and is less than 6 and not 0")
+    print(f"and is less than {last_digit} and not 0")
