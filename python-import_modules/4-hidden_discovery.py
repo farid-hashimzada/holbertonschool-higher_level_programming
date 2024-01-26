@@ -2,6 +2,8 @@
 import hidden_4
 
 if __name__ == "__main__":
-    for i in dir(hidden_4):
-        if i[0] != "_":
-            print(i)
+    names = dir(hidden_4)
+    sorted_names = sorted(name for name in names if not name.startswith("__"))
+    for name in sorted_names:
+        print(name)
+
