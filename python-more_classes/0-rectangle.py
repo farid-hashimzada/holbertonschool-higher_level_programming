@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-    '''
-        Rectangle Module
-    '''
+'''
+    Rectangle Module
+'''
 
 class Rectangle:
     '''
         Rectangle Class
     '''
 
-pass
+    pass
