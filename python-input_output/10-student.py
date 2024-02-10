@@ -19,4 +19,4 @@ class Student:
             for attr in attrs:
                 if attr in self.__dict__:
                     result[attr] = self.__dict__[attr]
-                return result
+            return result
